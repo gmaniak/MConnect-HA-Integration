@@ -1,0 +1,581 @@
+[
+    {
+        "_id": "65f54285db1a9bc06b378dd1",
+        "name": "Campina-Acasa",
+        "background": {
+            "color": null,
+            "gradient": null,
+            "image": "https://images.unsplash.com/photo-1502005097973-6a7082348e28",
+            "blur": true
+        },
+        "location": {
+            "name": "Strada Vasile Alecsandri, 105600 Câmpina, România",
+            "type": "Point",
+            "coordinates": [
+                25.73028825223446,
+                45.12706957242298
+            ],
+            "version": "v2",
+            "radius": 250
+        }
+    }
+]
+
+[
+    {
+        "_id": "65fdd5b9bdbf84c0bf922c4a",
+        "name": "Grădină",
+        "background": {
+            "color": null,
+            "gradient": null,
+            "image": "https://images.unsplash.com/photo-1572085313466-6710de8d7ba3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxOTI5MTN8MHwxfHNlYXJjaHwyfHxHYXJkZW58ZW58MXx8fHwxNzExMTM0MTIyfDA&ixlib=rb-4.0.3&q=80&w=1080?w=1080",
+            "blur": false
+        },
+        "home_id": "65f54285db1a9bc06b378dd1",
+        "createdAt": "2024-03-22T19:02:17.317Z",
+        "updatedAt": "2024-03-22T19:02:17.317Z",
+        "devices": []
+    },
+    {
+        "_id": "66af844ea12a938fe293bc0a",
+        "name": "Entryway",
+        "background": {
+            "color": null,
+            "gradient": null,
+            "image": "https://images.unsplash.com/photo-1711110175192-fbb074ae03d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxOTI5MTN8MHwxfHNlYXJjaHw3fHxFbnRyeXdheXxlbnwxfHx8fDE3MjI3Nzg2OTh8MA&ixlib=rb-4.0.3&q=80&w=1080?w=1080",
+            "blur": false
+        },
+        "home_id": "65f54285db1a9bc06b378dd1",
+        "order": [],
+        "createdAt": "2024-08-04T13:38:22.342Z",
+        "updatedAt": "2024-08-04T13:38:22.342Z",
+        "devices": [
+            {
+                "_id": "65f9aff440c5b852008543b6",
+                "endpoint_id": "DC5475D2848C",
+                "name": "Poarta Alee",
+                "icon": "swing-gate",
+                "type": "devices.types.LINK",
+                "favorite": false,
+                "notifications": false,
+                "home_id": "65f54285db1a9bc06b378dd1",
+                "product_id": "633aeaa9076c0d67196b94d8",
+                "values": [
+                    {
+                        "name": "Gate",
+                        "value_id": "gate_state",
+                        "type": "values.types.Multilevel",
+                        "value": 33408,
+                        "min": 0,
+                        "max": 100,
+                        "unit": "%",
+                        "configuration": false,
+                        "attributes": {
+                            "only_open_close": true
+                        },
+                        "timestamp": "2025-09-23T14:09:21.039Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2025-09-23T14:10:57.562Z"
+                    },
+                    {
+                        "name": "Gate Position",
+                        "value_id": "gate_position",
+                        "type": "values.types.OpenClose",
+                        "value": 0,
+                        "min": 0,
+                        "max": 100,
+                        "unit": "%",
+                        "configuration": false,
+                        "hide": true,
+                        "timestamp": "2025-09-23T13:22:31.252Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2025-09-23T13:22:31.478Z"
+                    },
+                    {
+                        "name": "Configurations",
+                        "value_id": "configurations",
+                        "type": "values.types.JsonConfig",
+                        "value": [
+                            {
+                                "id": "11_1",
+                                "v": 4
+                            },
+                            {
+                                "id": "12_0",
+                                "v": 10
+                            },
+                            {
+                                "id": "13_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "13_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "14_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "14_0",
+                                "v": 1
+                            },
+                            {
+                                "id": "15_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "15_0",
+                                "v": 1
+                            },
+                            {
+                                "id": "16_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "17_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "18_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "19_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "1B_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "1C_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "1D_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "1E_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "1F_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "21_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "22_0",
+                                "v": 4
+                            },
+                            {
+                                "id": "23_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "29_0",
+                                "v": 1
+                            },
+                            {
+                                "id": "3B_1",
+                                "v": 2
+                            },
+                            {
+                                "id": "3C_1",
+                                "v": 2
+                            },
+                            {
+                                "id": "3C_0",
+                                "v": 2
+                            },
+                            {
+                                "id": "3D_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "3E_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "3E_0",
+                                "v": 3
+                            },
+                            {
+                                "id": "3F",
+                                "v": 76
+                            },
+                            {
+                                "id": "40",
+                                "v": 110
+                            },
+                            {
+                                "id": "41",
+                                "v": 61
+                            },
+                            {
+                                "id": "42",
+                                "v": 124
+                            },
+                            {
+                                "id": "43",
+                                "v": 8
+                            },
+                            {
+                                "id": "44",
+                                "v": 9
+                            },
+                            {
+                                "id": "45",
+                                "v": 14
+                            },
+                            {
+                                "id": "46",
+                                "v": 5
+                            },
+                            {
+                                "id": "47_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "47_0",
+                                "v": 0
+                            },
+                            {
+                                "id": "48_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "FD_1",
+                                "v": 0
+                            },
+                            {
+                                "id": "FE",
+                                "v": 1
+                            },
+                            {
+                                "id": "FF",
+                                "v": 214
+                            },
+                            {
+                                "id": "27",
+                                "v": 2295
+                            }
+                        ],
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "attributes": {
+                            "only_technician": true
+                        },
+                        "timestamp": "2025-09-23T04:26:44.606Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2025-09-23T04:26:46.345Z"
+                    },
+                    {
+                        "name": "Full Remotes",
+                        "value_id": "full_remotes",
+                        "type": "values.types.JsonConfig",
+                        "value": [
+                            {
+                                "id": 0,
+                                "v": 4131483941
+                            },
+                            {
+                                "id": 1,
+                                "v": 2125492501
+                            },
+                            {
+                                "id": 2,
+                                "v": 2571333909
+                            },
+                            {
+                                "id": 3,
+                                "v": 1378972181
+                            },
+                            {
+                                "id": 4,
+                                "v": 1458601765
+                            }
+                        ],
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "attributes": {
+                            "only_technician": true
+                        },
+                        "timestamp": "2024-03-22T19:32:15.284Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2024-03-22T19:32:15.979Z"
+                    },
+                    {
+                        "name": "Walk Remotes",
+                        "value_id": "walk_remotes",
+                        "type": "values.types.JsonConfig",
+                        "value": [],
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "attributes": {
+                            "only_technician": true
+                        },
+                        "timestamp": "2024-03-20T10:00:06.368Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2024-03-20T10:00:07.127Z"
+                    },
+                    {
+                        "name": "Remotes References",
+                        "value_id": "remotes_refs",
+                        "type": "values.types.JsonConfig",
+                        "value": [],
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "hide": true,
+                        "timestamp": "2024-03-22T19:32:15.130Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2024-03-22T19:32:15.796Z"
+                    },
+                    {
+                        "name": "Diagnostics",
+                        "value_id": "diagnostics",
+                        "type": "values.types.JsonConfig",
+                        "value": [
+                            {
+                                "id": "D1",
+                                "v": 0
+                            },
+                            {
+                                "id": "I1",
+                                "v": 0
+                            },
+                            {
+                                "id": "O1",
+                                "v": 0
+                            }
+                        ],
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "attributes": {
+                            "only_technician": true
+                        },
+                        "timestamp": "2024-03-20T10:00:06.374Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2024-03-20T10:00:07.273Z"
+                    },
+                    {
+                        "name": "Diagnostic Enable",
+                        "value_id": "diagnostic_enable",
+                        "type": "values.types.OnOff",
+                        "value": 0,
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "hide": true,
+                        "timestamp": "2024-03-19T15:32:04.987Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2024-03-19T15:32:04.989Z"
+                    },
+                    {
+                        "name": "OTA",
+                        "value_id": "control_board_ota",
+                        "type": "values.types.OnOff",
+                        "value": 0,
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "hide": true,
+                        "timestamp": "2024-03-19T15:32:04.987Z",
+                        "createdAt": "2024-03-19T15:32:04.989Z",
+                        "updatedAt": "2024-03-19T15:32:04.989Z"
+                    },
+                    {
+                        "name": "Current Graph",
+                        "value_id": "current_graph",
+                        "type": "values.types.JsonConfig",
+                        "value": [],
+                        "min": 0,
+                        "max": 1,
+                        "configuration": true,
+                        "hide": true,
+                        "attributes": {
+                            "only_technician": true
+                        },
+                        "timestamp": "2025-07-10T08:01:00.000Z",
+                        "createdAt": "2025-07-10T08:01:00.000Z",
+                        "updatedAt": "2025-07-10T08:01:00.000Z"
+                    }
+                ],
+                "alexa_endpoint": "63a334cfdb326e951d1adc1e",
+                "google_device": "63a334c3db326e951d1adc1d",
+                "slaves": [],
+                "cameras": [],
+                "maintenanceAt": "1970-01-01T00:00:00.000Z",
+                "createdAt": "2024-03-19T15:32:04.990Z",
+                "updatedAt": "2025-09-23T14:10:57.562Z",
+                "room_id": "66af844ea12a938fe293bc0a",
+                "hide": false,
+                "endpoint": {
+                    "_id": "657c3cd2bb8e3e8ffda7b661",
+                    "endpoint_id": "DC5475D2848C",
+                    "createdAt": "2023-12-15T11:47:30.277Z",
+                    "info": {
+                        "product_id": "633aeaa9076c0d67196b94d8",
+                        "hardware_version": "1.0",
+                        "software_version": "25.07.141205",
+                        "wifi": {
+                            "ssid": "GCampina-IoT",
+                            "createdAt": "2025-09-23T09:08:16.991Z",
+                            "updatedAt": "2025-09-23T16:04:45.767Z",
+                            "rssi": -60
+                        },
+                        "product": {
+                            "_id": "633aeaa9076c0d67196b94d8",
+                            "name": "MCONNECT LINK",
+                            "manufacturer": "Motorline",
+                            "hardware_version": "V0.1.3",
+                            "software_version": "25.07.141205",
+                            "whats_new": [
+                                {
+                                    "lang": "en",
+                                    "message": "Added current graph."
+                                },
+                                {
+                                    "lang": "pt",
+                                    "message": "Adicionado gráfico de corrente."
+                                },
+                                {
+                                    "lang": "es",
+                                    "message": "Adicionado gráfico de corriente."
+                                },
+                                {
+                                    "lang": "fr",
+                                    "message": "Ajouté graphique de courant."
+                                },
+                                {
+                                    "lang": "de",
+                                    "message": "Stromdiagramm hinzugefügt."
+                                },
+                                {
+                                    "lang": "pl",
+                                    "message": "Dodano wykres prądu."
+                                },
+                                {
+                                    "lang": "ro",
+                                    "message": "Graficul curent a fost adăugat."
+                                },
+                                {
+                                    "lang": "hu",
+                                    "message": "Áramdiagram hozzáadva."
+                                }
+                            ],
+                            "manuals": [
+                                {
+                                    "lang": "en",
+                                    "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_en.pdf"
+                                },
+                                {
+                                    "lang": "pt",
+                                    "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_pt.pdf"
+                                },
+                                {
+                                    "lang": "es",
+                                    "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_es.pdf"
+                                },
+                                {
+                                    "lang": "de",
+                                    "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_de.pdf"
+                                },
+                                {
+                                    "lang": "pl",
+                                    "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_en.pdf"
+                                }
+                            ],
+                            "image": "https://static.mconnect.motorline.pt/products/images/mconnect-link.png",
+                            "updatedAt": "2025-09-23T15:39:46.046Z"
+                        }
+                    },
+                    "status": 1,
+                    "updatedAt": "2025-09-23T16:04:45.767Z",
+                    "home_id": "65f54285db1a9bc06b378dd1",
+                    "ble": {
+                        "updatedAt": "2025-07-06T23:51:29.645Z"
+                    }
+                },
+                "product": {
+                    "_id": "633aeaa9076c0d67196b94d8",
+                    "name": "MCONNECT LINK",
+                    "manufacturer": "Motorline",
+                    "hardware_version": "V0.1.3",
+                    "software_version": "25.07.141205",
+                    "whats_new": [
+                        {
+                            "lang": "en",
+                            "message": "Added current graph."
+                        },
+                        {
+                            "lang": "pt",
+                            "message": "Adicionado gráfico de corrente."
+                        },
+                        {
+                            "lang": "es",
+                            "message": "Adicionado gráfico de corriente."
+                        },
+                        {
+                            "lang": "fr",
+                            "message": "Ajouté graphique de courant."
+                        },
+                        {
+                            "lang": "de",
+                            "message": "Stromdiagramm hinzugefügt."
+                        },
+                        {
+                            "lang": "pl",
+                            "message": "Dodano wykres prądu."
+                        },
+                        {
+                            "lang": "ro",
+                            "message": "Graficul curent a fost adăugat."
+                        },
+                        {
+                            "lang": "hu",
+                            "message": "Áramdiagram hozzáadva."
+                        }
+                    ],
+                    "manuals": [
+                        {
+                            "lang": "en",
+                            "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_en.pdf"
+                        },
+                        {
+                            "lang": "pt",
+                            "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_pt.pdf"
+                        },
+                        {
+                            "lang": "es",
+                            "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_es.pdf"
+                        },
+                        {
+                            "lang": "de",
+                            "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_de.pdf"
+                        },
+                        {
+                            "lang": "pl",
+                            "url": "https://motorline.pt/download/manuais/casa_inteligente/mconnect_link_en.pdf"
+                        }
+                    ],
+                    "image": "https://static.mconnect.motorline.pt/products/images/mconnect-link.png",
+                    "updatedAt": "2025-09-23T15:39:46.046Z"
+                }
+            }
+        ]
+    },
+    {
+        "_id": null,
+        "home_id": "65f54285db1a9bc06b378dd1"
+    }
+]
